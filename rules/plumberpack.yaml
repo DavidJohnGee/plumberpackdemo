@@ -1,0 +1,27 @@
+action:
+    parameters:
+        cmd: plumbergateway {{trigger.vlan}} {{trigger.iface}}
+        hosts: 192.168.100.101
+    ref: core.remote
+criteria:
+    trigger.iface:
+        pattern: .*
+        type: matchregex
+    trigger.vlan:
+        pattern: .*
+        type: matchregex
+description: plumberpack rule
+enabled: false
+id: 589252ebc4da5f09a459f136
+name: plumberpack
+pack: plumbpack
+ref: plumbpack.plumberpack
+tags: []
+trigger:
+    parameters: {}
+    ref: plumbpack.new_vrouter
+    type: plumbpack.new_vrouter
+type:
+    parameters: {}
+    ref: standard
+uid: rule:plumbpack:plumberpack

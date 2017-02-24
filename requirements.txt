@@ -1,0 +1,3 @@
+requests
+keystoneauth1
+neutronclient.v2_0

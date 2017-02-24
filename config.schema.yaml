@@ -1,0 +1,37 @@
+---
+  compute:
+    description: "IP address of the compute node."
+    type: "string"
+    required: true
+  neutron:
+    description: "IP address of the Neutron node."
+    type: "string"
+    required: true
+  flask:
+    description: "IP address of the Flask node."
+    type: "string"
+    required: true
+  flaskuser:
+    description: "User name of the Flask REST service."
+    type: "string"
+    required: true
+  flaskpass:
+    description: "Password of the Flask REST service."
+    type: "string"
+    required: true
+  computeuser:
+    description: "User name of the compute node."
+    type: "string"
+    required: true
+  computepass:
+    description: "Password of the compute node.."
+    type: "string"
+    required: true
+  neutronuser:
+    description: "User name of the Neutron node."
+    type: "string"
+    required: true
+  neutronpass:
+    description: "Password of the Neutron node.."
+    type: "string"
+    required: true

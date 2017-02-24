@@ -1,0 +1,20 @@
+---
+  class_name: "PlumbingSensor"
+  entry_point: "plumbing_sensor.py"
+  description: "vRouter plumbing sensor"
+  poll_interval: 20
+  trigger_types:
+  - name: new_vrouter
+    description: "Trigger which indicates a new vRouter. Pushes ID, VLAN & TAP ID for external interface on bridge."
+    payload_schema:
+      type: object
+      properties:
+        vlan:
+          description: "VLAN of the bridge to put the interface on"
+          type: string
+        iface:
+          description: "Interface value of the TAP interface for the vRouter"
+          type: string
+        devid:
+          description: "vRouter ID"
+          type: string

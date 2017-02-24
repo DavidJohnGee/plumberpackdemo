@@ -1,0 +1,9 @@
+---
+ref: plumbpack
+name: plumbpack
+description: Plumbing of vRouter to external bridge service
+version: 0.0.1
+author: David Gee
+email: dgee@brocade.com
+keywords:
+  - fun

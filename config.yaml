@@ -1,0 +1,10 @@
+---
+  compute: "192.168.100.101"
+  neutron: "192.168.100.100"
+  flask: "192.168.100.100:5000"
+  flaskuser: "admin"
+  flaskpass: "admin"
+  computeuser: "root"
+  computepass: "brocade101"
+  neutronuser: ""
+  neutronpass: ""
