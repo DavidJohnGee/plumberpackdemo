@@ -1,3 +1,4 @@
 requests
 keystoneauth1
-neutronclient
+python-neutronclient
+clicrud
